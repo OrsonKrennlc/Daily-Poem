@@ -1,1 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>每日一首诗</title>
+	</head>
+	<body>
+		<h1 align="center"><i><font color="goldenrod">每天一首诗<br/>
+		腹有诗书气自华</font></i></h1>
+		<div id="date">
+		</div>
+		<div id="poem">
+		</div>
+		<script type="text/javascript">
+			var date=new Date();
+			date=date.getDate();
+			var output="<iframe src=\"https://orsonkrennlc.github.io/dailypoem/";
+			o=output+date+"\" width=100% height=\"280\" marginwidth=0 marginheight=20%></iframe>";
+			document.getElementById("poem").innerHTML=o;
+			var d=new Date();
+			document.getElementById("date").innerHTML="<p align=\"center\">"+d+"</p>";
+		</script>
 
+	</body>
+</html>
