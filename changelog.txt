@@ -1,0 +1,7 @@
+6.13
+Added
+1. Created index.html
+2. Uploaded day 1-14
+3. Completed poem showing unit(basic)
+4. Can be linked from GMB's homgpage
+^_^
